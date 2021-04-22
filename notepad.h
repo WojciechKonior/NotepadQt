@@ -23,6 +23,10 @@ public:
     ~Notepad();
 
 private:
+    // Point to the ui class
     Ui::Notepad *ui;
+
+    // A Qt character string that will hold text entered by the user
+    QString currentFile = "";
 };
 #endif // NOTEPAD_H
