@@ -9,6 +9,11 @@
 #include <QMessageBox>
 #include <QPrinter>
 #include <QPrintDialog>
+#include <QDir>
+#include <QFont>
+#include <QFontDialog>
+#include <QColor>
+#include <QColorDialog>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Notepad; }
@@ -24,24 +29,22 @@ public:
 
 private slots:
     void on_actionNew_triggered();
-
     void on_actionOpen_triggered();
-
+    void on_actionSave_triggered();
     void on_actionSave_As_triggered();
-
     void on_actionPrint_triggered();
-
     void on_actionClose_triggered();
-
     void on_actionUndo_triggered();
-
     void on_actionRedo_triggered();
-
     void on_actionCopy_triggered();
-
     void on_actionCut_triggered();
-
     void on_actionPaste_triggered();
+
+    void on_actionFont_triggered();
+
+    void on_actionColor_triggered();
+
+    void on_actionAbout_triggered();
 
 private:
     // Point to the ui class

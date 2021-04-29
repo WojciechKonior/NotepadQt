@@ -11,5 +11,11 @@
         <file>resources/save-all-icon.png</file>
         <file>resources/save-icon.png</file>
         <file>resources/undo-icon.png</file>
+        <file>resources/notepad-icon.png</file>
+        <file>resources/save-as-icon.png</file>
+        <file>resources/About-icon.png</file>
+        <file>resources/color-icon.png</file>
+        <file>resources/Font-icon.png</file>
+        <file>resources/Notepad-icon_2.png</file>
     </qresource>
 </RCC>
