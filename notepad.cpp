@@ -250,7 +250,12 @@ void Notepad::on_actionFont_triggered()
     QFont font = QFontDialog::getFont(&ok, this);
 
     if(ok){
-        ui->textEdit->setFont(font);
+//        ui->textEdit->setFont(font);
+        ui->textEdit->setFontFamily(font.family());
+        ui->textEdit->setFontItalic(font.italic());
+        ui->textEdit->setFontPointSize(font.pointSize());
+        ui->textEdit->setFontUnderline(font.underline());
+        ui->textEdit->setFontWeight(font.weight());
     }
     else
         return;
